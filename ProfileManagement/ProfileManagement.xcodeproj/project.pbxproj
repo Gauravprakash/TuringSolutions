@@ -29,22 +29,9 @@
 		877C25082D31B05A002ED5BB /* ProfileManagementUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProfileManagementUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		877C25102D31B05A002ED5BB /* Exceptions for "ProfileManagement" folder in "ProfileManagement" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 877C24DF2D31B058002ED5BB /* ProfileManagement */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		877C24E22D31B058002ED5BB /* ProfileManagement */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				877C25102D31B05A002ED5BB /* Exceptions for "ProfileManagement" folder in "ProfileManagement" target */,
-			);
 			path = ProfileManagement;
 			sourceTree = "<group>";
 		};
