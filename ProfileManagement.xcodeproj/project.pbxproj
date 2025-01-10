@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		877C24FF2D31B05A002ED5BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 877C24D82D31B058002ED5BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 877C24DF2D31B058002ED5BB;
+			remoteInfo = ProfileManagement;
+		};
+		877C25092D31B05A002ED5BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 877C24D82D31B058002ED5BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 877C24DF2D31B058002ED5BB;
+			remoteInfo = ProfileManagement;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		877C24E02D31B058002ED5BB /* ProfileManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProfileManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		877C24FE2D31B05A002ED5BB /* ProfileManagementTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProfileManagementTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		877C25082D31B05A002ED5BB /* ProfileManagementUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProfileManagementUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		877C25102D31B05A002ED5BB /* Exceptions for "ProfileManagement" folder in "ProfileManagement" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 877C24DF2D31B058002ED5BB /* ProfileManagement */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		877C24E22D31B058002ED5BB /* ProfileManagement */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				877C25102D31B05A002ED5BB /* Exceptions for "ProfileManagement" folder in "ProfileManagement" target */,
+			);
+			path = ProfileManagement;
+			sourceTree = "<group>";
+		};
+		877C25012D31B05A002ED5BB /* ProfileManagementTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ProfileManagementTests;
+			sourceTree = "<group>";
+		};
+		877C250B2D31B05A002ED5BB /* ProfileManagementUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ProfileManagementUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		877C24DD2D31B058002ED5BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		877C24FB2D31B05A002ED5BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		877C25052D31B05A002ED5BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		877C24D72D31B058002ED5BB = {
+			isa = PBXGroup;
+			children = (
+				877C24E22D31B058002ED5BB /* ProfileManagement */,
+				877C25012D31B05A002ED5BB /* ProfileManagementTests */,
+				877C250B2D31B05A002ED5BB /* ProfileManagementUITests */,
+				877C24E12D31B058002ED5BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		877C24E12D31B058002ED5BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				877C24E02D31B058002ED5BB /* ProfileManagement.app */,
+				877C24FE2D31B05A002ED5BB /* ProfileManagementTests.xctest */,
+				877C25082D31B05A002ED5BB /* ProfileManagementUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		877C24DF2D31B058002ED5BB /* ProfileManagement */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 877C25112D31B05A002ED5BB /* Build configuration list for PBXNativeTarget "ProfileManagement" */;
+			buildPhases = (
+				877C24DC2D31B058002ED5BB /* Sources */,
+				877C24DD2D31B058002ED5BB /* Frameworks */,
+				877C24DE2D31B058002ED5BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				877C24E22D31B058002ED5BB /* ProfileManagement */,
+			);
+			name = ProfileManagement;
+			packageProductDependencies = (
+			);
+			productName = ProfileManagement;
+			productReference = 877C24E02D31B058002ED5BB /* ProfileManagement.app */;
+			productType = "com.apple.product-type.application";
+		};
+		877C24FD2D31B05A002ED5BB /* ProfileManagementTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 877C25162D31B05A002ED5BB /* Build configuration list for PBXNativeTarget "ProfileManagementTests" */;
+			buildPhases = (
+				877C24FA2D31B05A002ED5BB /* Sources */,
+				877C24FB2D31B05A002ED5BB /* Frameworks */,
+				877C24FC2D31B05A002ED5BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				877C25002D31B05A002ED5BB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				877C25012D31B05A002ED5BB /* ProfileManagementTests */,
+			);
+			name = ProfileManagementTests;
+			packageProductDependencies = (
+			);
+			productName = ProfileManagementTests;
+			productReference = 877C24FE2D31B05A002ED5BB /* ProfileManagementTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		877C25072D31B05A002ED5BB /* ProfileManagementUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 877C25192D31B05A002ED5BB /* Build configuration list for PBXNativeTarget "ProfileManagementUITests" */;
+			buildPhases = (
+				877C25042D31B05A002ED5BB /* Sources */,
+				877C25052D31B05A002ED5BB /* Frameworks */,
+				877C25062D31B05A002ED5BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				877C250A2D31B05A002ED5BB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				877C250B2D31B05A002ED5BB /* ProfileManagementUITests */,
+			);
+			name = ProfileManagementUITests;
+			packageProductDependencies = (
+			);
+			productName = ProfileManagementUITests;
+			productReference = 877C25082D31B05A002ED5BB /* ProfileManagementUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		877C24D82D31B058002ED5BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					877C24DF2D31B058002ED5BB = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					877C24FD2D31B05A002ED5BB = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 877C24DF2D31B058002ED5BB;
+					};
+					877C25072D31B05A002ED5BB = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 877C24DF2D31B058002ED5BB;
+					};
+				};
+			};
+			buildConfigurationList = 877C24DB2D31B058002ED5BB /* Build configuration list for PBXProject "ProfileManagement" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 877C24D72D31B058002ED5BB;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 877C24E12D31B058002ED5BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				877C24DF2D31B058002ED5BB /* ProfileManagement */,
+				877C24FD2D31B05A002ED5BB /* ProfileManagementTests */,
+				877C25072D31B05A002ED5BB /* ProfileManagementUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		877C24DE2D31B058002ED5BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		877C24FC2D31B05A002ED5BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		877C25062D31B05A002ED5BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		877C24DC2D31B058002ED5BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		877C24FA2D31B05A002ED5BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		877C25042D31B05A002ED5BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		877C25002D31B05A002ED5BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 877C24DF2D31B058002ED5BB /* ProfileManagement */;
+			targetProxy = 877C24FF2D31B05A002ED5BB /* PBXContainerItemProxy */;
+		};
+		877C250A2D31B05A002ED5BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 877C24DF2D31B058002ED5BB /* ProfileManagement */;
+			targetProxy = 877C25092D31B05A002ED5BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		877C25122D31B05A002ED5BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZGK4S99F7D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ProfileManagement/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.turing.ProfileManagement;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		877C25132D31B05A002ED5BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZGK4S99F7D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ProfileManagement/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.turing.ProfileManagement;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		877C25142D31B05A002ED5BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		877C25152D31B05A002ED5BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		877C25172D31B05A002ED5BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZGK4S99F7D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.turing.ProfileManagementTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProfileManagement.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ProfileManagement";
+			};
+			name = Debug;
+		};
+		877C25182D31B05A002ED5BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZGK4S99F7D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.turing.ProfileManagementTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProfileManagement.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ProfileManagement";
+			};
+			name = Release;
+		};
+		877C251A2D31B05A002ED5BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZGK4S99F7D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.turing.ProfileManagementUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProfileManagement;
+			};
+			name = Debug;
+		};
+		877C251B2D31B05A002ED5BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZGK4S99F7D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.turing.ProfileManagementUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProfileManagement;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		877C24DB2D31B058002ED5BB /* Build configuration list for PBXProject "ProfileManagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				877C25142D31B05A002ED5BB /* Debug */,
+				877C25152D31B05A002ED5BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		877C25112D31B05A002ED5BB /* Build configuration list for PBXNativeTarget "ProfileManagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				877C25122D31B05A002ED5BB /* Debug */,
+				877C25132D31B05A002ED5BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		877C25162D31B05A002ED5BB /* Build configuration list for PBXNativeTarget "ProfileManagementTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				877C25172D31B05A002ED5BB /* Debug */,
+				877C25182D31B05A002ED5BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		877C25192D31B05A002ED5BB /* Build configuration list for PBXNativeTarget "ProfileManagementUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				877C251A2D31B05A002ED5BB /* Debug */,
+				877C251B2D31B05A002ED5BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 877C24D82D31B058002ED5BB /* Project object */;
+}
