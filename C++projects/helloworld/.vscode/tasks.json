@@ -1,0 +1,27 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Build helloworld",
+        "type": "shell",
+        "command": "/usr/bin/clang++",
+        "args": [
+          "-std=c++17",
+          "-stdlib=libc++",
+          "-arch",
+          "arm64",
+          "-g",
+          "${workspaceFolder}/helloworld/helloworld.cpp",
+          "-o",
+          "${workspaceFolder}/helloworld/helloworld"
+        ],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": ["$gcc"],
+        "detail": "Builds the helloworld.cpp file."
+      }
+    ]
+  }
+  
